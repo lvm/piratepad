@@ -29,7 +29,7 @@ def parse_pp(pagename=None):
         soup = BeautifulSoup(page)
         script = "\n".join(soup.html.script.text.split("\n")[1:-1])[17:]
         pages = re.findall("(%s[a-zA-Z0-9\-]+)" % piratepad, script)
-        rev = re.findall('"rev":([0-9]+)', script)[0]
+        rev = parse_rev(0, script)
         data[pagename]['rev'] = rev
         for format in ['html', 'txt', 'doc', 'pdf']:
             data[pagename]['export'][format] = \
