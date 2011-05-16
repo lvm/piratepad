@@ -1,6 +1,6 @@
 This small utility was written for a very special case where I want a quick way to access a list of pages on PiratePad, albeit it should work with most EtherPad clones.
 
-Said pages could be written with any format in mind (ie: mdwn, rest, textile, asciidoc, *prog lang*), except for the one main page. This page _MUST_ comply with one small deailt: List the related pages.
+Said pages could be written with any format in mind (ie: mdwn, rest, textile, asciidoc, *prog lang*), except for the one main page. This page _MUST_ comply with one small detail: List the related pages.
 
 That is:
 
