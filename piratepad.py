@@ -49,4 +49,5 @@ def parse_pp(pagename=None):
                     (piratepad, page_id, rev, format)
     return data
 
-#print parse_pp('you-name-it')
+if __name__ == "__main__":
+    parse_pp("piratepadpy")
